@@ -34,6 +34,7 @@ ul, .text {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 600;
     width: 500px;
 }
 
@@ -141,4 +142,55 @@ ul, .text {
     display: flex;
     justify-content: flex-end;
     margin: 0px 300px;
+}
+
+/* Call to action section */
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 12px;
+    height: 75px;
+    width: 950px;
+    padding: 32px;
+    margin: 100px;
+}
+
+.blueleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blueright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Call {
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.Rest {
+    color: white;
+    font-size: 18px;
+}
+
+.Sign2 {
+    background-color:#3882f6;
+    border: 2px solid white;
+    border-radius: 6px;
+    height : 40px;
+    width: 120px;
+    color: white;
+    font-size: 18px;
 }
