@@ -20,7 +20,7 @@ ul, .text {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0px 100px;
 }
 
@@ -194,3 +194,13 @@ ul, .text {
     color: white;
     font-size: 18px;
 }
+
+/*Footer*/
+ .footer {
+    background-color: #1F2937;
+    color : #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 18px;
+ }
