@@ -20,51 +20,60 @@ ul, .text {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 120px;
+    justify-content: space-around;
+    padding: 0px 80px;
 }
 
 .topsection {
     background-color: #1F2937 ;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    width: 500px;
 }
 
 .top {
     display: flex;
-    justify-content: space-between;
-    padding: 80px 120px;
+    justify-content: space-around;
+    padding: 80px;
 }
 
 .right {
-    background-color: gray;
+    background-color: grey;
     color: #F9FAF8;
-    margin: 18px;
     height: 200px;
     width: 500px;
     display: flex;
-}
-
-.placeholder {
-    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .left {
- display: flex;
- flex-direction: column;
  width: 400px;
  height: 200px;
-}
-
-.signup {
-    
+ padding-right: 16px;
+ height: fit-content;
 }
 
 .title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+}
+
+.Signup {
+    margin-top: 16px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 450;
+    border-radius: 12px;
+    border: none;
+    width: 130px;
+    height: 35px;
 }
