@@ -40,6 +40,7 @@ ul, .text {
 .top {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 100px;
 }
 
@@ -47,17 +48,17 @@ ul, .text {
     background-color: #6d747d;
     color: #F9FAF8;
     height: 250px;
-    width: 500px;
+    width: 400px;
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .left {
  width: 400px;
- height: 250px;
- padding-right: 16px;
- height: fit-content;
+ padding: 16px;
 }
 
 .title {
@@ -115,3 +116,29 @@ ul, .text {
 }
 
 /* Quote section */
+
+.container2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    padding: 150px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    align-self: center;
+    flex-shrink: 0;
+    margin: 0px 300px;
+}
+
+.signature {
+    font-weight: 800;
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 300px;
+}
