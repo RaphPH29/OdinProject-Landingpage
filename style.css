@@ -21,11 +21,11 @@ ul, .text {
 .header {
     display: flex;
     justify-content: space-around;
-    padding: 0px 80px;
+    padding: 0px 100px;
 }
 
 .topsection {
-    background-color: #1F2937 ;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     padding-top: 16px;
@@ -40,13 +40,13 @@ ul, .text {
 .top {
     display: flex;
     justify-content: space-around;
-    padding: 80px;
+    padding: 100px;
 }
 
 .right {
-    background-color: grey;
+    background-color: #6d747d;
     color: #F9FAF8;
-    height: 200px;
+    height: 250px;
     width: 500px;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@ ul, .text {
 
 .left {
  width: 400px;
- height: 200px;
+ height: 250px;
  padding-right: 16px;
  height: fit-content;
 }
@@ -77,3 +77,41 @@ ul, .text {
     width: 130px;
     height: 35px;
 }
+
+/* section du milieu avec les images */
+
+.middle {
+    background-color: #ffffff;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 100px 100px 100px;
+    gap:45px
+}
+
+.Subtitle {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Img {
+    border: 5px solid #3882f6;
+    border-radius: 12px;
+    height : 150px;
+    width: 150px;
+}
+
+.Imgtext {
+    width: 150px;
+    margin-top: 16px;
+}
+
+/* Quote section */
